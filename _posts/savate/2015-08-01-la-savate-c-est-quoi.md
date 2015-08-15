@@ -44,3 +44,8 @@ Pendant cette forme de rencontre, les juges s'intéressent aux points marqués :
 - 2 points pour un coup de pied en ligne médiane ;
 - 4 points pour un coup de pied visage ;
 - un maximum de 2 points pour un enchaînement de coups de poings (visage ou buste). 
+
+{% if page.categories != NULL %}
+## Voir aussi
+{% include list-posts.html entries='5' category='savate' %}
+{% endif%}

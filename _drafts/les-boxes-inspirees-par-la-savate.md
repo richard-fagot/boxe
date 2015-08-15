@@ -10,3 +10,9 @@ tags:
     - Jeet Kun Do
     - Yoseikan Budo
 ---
+
+
+{% if page.categories != NULL %}
+## Voir aussi
+{% include list-posts.html entries='5' category='savate' %}
+{% endif%}

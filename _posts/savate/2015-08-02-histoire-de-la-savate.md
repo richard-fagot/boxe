@@ -13,3 +13,7 @@ Avant de devenir la discipline sportive que nous connaissons aujourd'hui, la *Sa
 
 L'histoire de la savate débute dans les bas quartiers où les mauvais garçon s'affrontent au <em>chausson</em>.
 
+{% if page.categories != NULL %}
+## Voir aussi
+{% include list-posts.html entries='5' category='savate' %}
+{% endif%}

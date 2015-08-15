@@ -16,3 +16,7 @@ Le fouété bas est probablement le coup le plus utilisé en *Savate Boxe Franç
   <iframe with video />
 </div>
 
+{% if page.categories != NULL %}
+## Voir aussi
+{% include list-posts.html entries='5' category='savate' %}
+{% endif%}

@@ -39,3 +39,8 @@ Vous voilà prêt à suivre les commandements de l'arbitre et à vous battre pou
 
 - ne vous trompez pas de coin ! cela arrive régulièrement, ça met le bazar, ça fait prendre du retard, agace tout le monde et ça risque de nuire à votre concentration et à votre routine ;
 - un officiel peut faire des erreurs tout comme vous, vérifiez qu'on vous donne les gants et le casque de la couleur de votre coin. J'ai déjà vu une rencontre s'interrompre parce qu'un des tireurs n'avait pas les gants de la bonne couleur. Le pire c'est qu'il venait de mettre KO son adversaire qui a du coup eu le temps de récupérer !!
+
+{% if page.categories != NULL %}
+## Voir aussi
+{% include list-posts.html entries='5' category='savate' %}
+{% endif%}
